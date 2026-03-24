@@ -214,9 +214,9 @@ int main() {
       printf ("Nome da cidade: %s\n", nomeCidade2);
       printf("Densidade Populacional: %.2f hab/km2\n", densidadePop2);
 
-      if (densidadePop > densidadePop2){
+      if (densidadePop < densidadePop2){
         printf("\n*** Carta 1 venceu! ***\n");
-      }else if (densidadePop < densidadePop2){
+      }else if (densidadePop > densidadePop2){
         printf("\n*** Carta 2 Venceu! ***\n");
       }else{
         printf("\n*** Empate! ***\n");
