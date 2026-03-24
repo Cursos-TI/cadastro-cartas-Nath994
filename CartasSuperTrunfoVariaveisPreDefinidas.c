@@ -6,16 +6,16 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
 
-  char estado, estado2, codigoCarta[4], codigoCarta2[4], nomeCidade[20], nomeCidade2[20];
-  unsigned long int populacao, populacao2;
-  float area, area2, pib, pib2, densidadePop, densidadePop2, pibPercapita, pibPercapita2, superPoder, superPoder2;
-  int pontoTuristico, pontoTuristico2;
+  char estado = 'A', estado2 = 'B', codigoCarta[4] = "A01" , codigoCarta2[4] = "B02" , nomeCidade[20] = "SP", nomeCidade2[20] = "RJ";
+  unsigned long int populacao = 12325000, populacao2 = 6748000;
+  float area = 1521.11, area2 = 1200.25, pib = 699.28, pib2 = 300.50, densidadePop, densidadePop2, pibPercapita, pibPercapita2, superPoder, superPoder2;
+  int pontoTuristico = 50, pontoTuristico2 = 30;
 
 
 
    // Área para entrada de dados
 
-   //Entrada Carta 1:
+   /*Entrada Carta 1:
   printf("Forneça as informações da carta 1:\n");
   printf("Digite a letra do estado (Uma letra entre 'A' a 'H'):\n");
   scanf(" %c", &estado);
@@ -31,9 +31,9 @@ int main() {
   scanf("%f", &pib);
   printf("Digite a quantidade de pontos turísticos:\n");
   scanf("%d", &pontoTuristico);
-  
+  */
 
-  //Entrada Carta 2:
+  /*Entrada Carta 2:
   printf("Forneça as informações da carta 2:\n");
   printf("Digite a letra do estado (Uma letra entre 'A' a 'H'):\n");
   scanf(" %c", &estado2);
@@ -49,7 +49,7 @@ int main() {
   scanf("%f", &pib2);
   printf("Digite a quantidade de pontos turísticos:\n");
   scanf("%d", &pontoTuristico2);
-
+*/
 
 //Cálculos Carta 1
   densidadePop = (float) populacao / area;
